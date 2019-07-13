@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Francois+One|Righteous&display=swap');
+
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: linear-gradient(to bottom right, lightpink, rgb(216, 106, 123));
+    font-family: 'Francois One', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: none;
+}
+
+.window {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 350px;
+    width: 600px;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 254, 226));
+    box-shadow: 5px 10px 15px rgb(62, 62, 62);
+    border-radius: 45px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.topbar {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Righteous', cursive;
+    height: 7%;
+    width: 80%;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.front {
+    width: 280px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 45px;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 130, 151);
+}
+
+p {
+    margin: 0;
+    font-size: 13px;
+}
+
+#name {
+    color: rgb(255, 127, 148);
+}
+
+button {
+    font-family: 'Righteous', cursive;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 12px 15px rgb(171, 171, 171);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 52%;
+
+}
