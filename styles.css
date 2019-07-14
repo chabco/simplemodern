@@ -33,7 +33,7 @@ body {
     height: 350px;
     width: 600px;
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 254, 226));
-    box-shadow: 5px 10px 15px rgb(62, 62, 62);
+    box-shadow: 5px 10px 15px rgb(0, 0, 0, 0.7);
     border-radius: 45px;
 }
 
@@ -52,6 +52,7 @@ body {
     height: 7%;
     width: 80%;
     list-style-type: none;
+    margin-top: 35px;
 }
 
 a {
@@ -70,9 +71,13 @@ a {
     width: 280px;
 }
 
+h1,
+.rightpic {
+    margin: 12px 0 0 0;
+}
+
 h1 {
-    margin: 0;
-    font-size: 35px;
+    font-size: 38px;
 }
 
 h2 {
@@ -94,10 +99,10 @@ p {
 button {
     font-family: 'Righteous', cursive;
     color: white;
-    border-radius: 20px;
-    box-shadow: 2px 12px 15px rgb(171, 171, 171);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px 0 rgb(0, 0, 0, 0.4);
     background-color: rgb(0, 0, 0);
     padding: 10px;
-    width: 52%;
+    width: 44%;
 
 }
